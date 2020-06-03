@@ -1,5 +1,5 @@
 platform:
-- Win32
+- Any CPU
 
 configuration:
 - Release

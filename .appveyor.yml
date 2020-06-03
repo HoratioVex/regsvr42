@@ -20,8 +20,6 @@ install:
 build:
  project: regsvr42.sln
 
-# Build through commands in script below
-#test_script:
-
-#- ps: >-
-#    msbuild /t:Build /p:platform="$env:platform" /p:configuration="$env:configuration" regsvr42.vcxproj 
+artifacts:
+  - path: x64\Debug\regsvr42.exe
+    name: regsvr42-build

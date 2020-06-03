@@ -12,7 +12,9 @@ environment:
 
   - BUILD_MODE: MSBuild
 
-
+build:
+ 
+  project: regsvr42.sln
 
 # Build through commands in script below
 #test_script:

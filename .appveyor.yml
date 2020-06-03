@@ -21,5 +21,7 @@ build:
  project: regsvr42.sln
 
 artifacts:
-  - path: x64\Debug\regsvr42.exe
-    name: regsvr42-build
+  - path: x64\Release\regsvr42.exe
+    name: regsvr42-x64
+  - path: Win32\Release\regsvr42.exe
+    name: regsvr42-x86

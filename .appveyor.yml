@@ -1,6 +1,8 @@
 platform:
-
 - Win32
+
+configuration:
+- Release
 
 image:
 

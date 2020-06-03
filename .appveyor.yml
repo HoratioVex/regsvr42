@@ -1,8 +1,8 @@
-platform:
-- Any CPU
+#platform:
+#- Any CPU
 
-configuration:
-- Release
+#configuration:
+#- Release
 
 image:
 
